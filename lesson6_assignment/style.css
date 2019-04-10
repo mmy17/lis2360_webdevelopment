@@ -65,7 +65,8 @@ ol {
 }
 
 /* table styles -------------------------------------- */
-table { 1px;
+table { 
+	1px;
 }
 td {
 	padding: 6px;
@@ -93,4 +94,49 @@ iframe {
 	border: solid #2E80FF 1px;
 	padding: 8px;
 	margin: 8px;
+}
+
+/* DIV STYLES FOR PAGE LAYOUT */
+
+
+#container { 
+	width: 900px; 
+	margin: 0 auto; 
+	background-color: #3E403D;
+	overflow: hidden; 
+}
+#header { 
+	width: 100%; 
+	background-color: #3E403D;
+	border-bottom: 1px solid #2E80FF;
+}
+#content { 
+	width: 600px;
+	float: left; 
+	padding-bottom: 40px;
+}
+#sidebar { 
+	width: 278px; 
+	float: left;
+	margin-top: 50px;
+	margin-right: 20px;
+	background: #D3D3D3;
+	border: 1px solid #2E80FF;
+	border-radius: 12px;
+	box-shadow: 10px 10px 5px #888888;
+	color: #2E80FF;
+}
+#sidebar p{
+	padding: 0;
+	float: right;
+}
+#footer { 
+	clear: both;
+	width: 100%; 
+	background-color: #3E403D;
+	border-top: 1px solid #2E80FF;
+}
+#footer p {
+	margin: 0;
+	padding: 40px;
 }
