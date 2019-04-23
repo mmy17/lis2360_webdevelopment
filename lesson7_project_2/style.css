@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* CSS DOCUMENT */
+/*--------------HTML TAG STYLES-----------------*/
+body {
+  margin: 0px; 
+  padding: 0px;
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+p {
+  font-size: 15px;
+  margin-bottom: 40px;
+  line-height: 2em;
+}
+h1 {
+  padding: 20px 0;
+  color: #ffcc16;
+  font-size: 40px:
+}
+h3{
+    color:#ffcc16;
+}
+table {
+	border: solid #000000 1px;
+	border-collapse:collapse;
+}
+td {
+	padding: 6px;
+	border: solid #000000 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #000000;
+	text-align: center;
+	padding: 6px;
+	border: solid #000000 1px;
+}
+a:link {
+	color: #000000;
+}
+a:visited {
+	color: #000000;
+}
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+/*----------------PAGE SECTION STYLES-----------*/
+#title-page{ 
+    width: 100%; 
+    padding-top: 200px; /* provides a lot of space to view the background image */ 
+    color: #c0261f; text-align: right; 
+} 
+#title-page h1 { 
+    color: #3B3B3B;
+    font-family: 'Amaranth', sans-serif; 
+    font-size: 80px; 
+    text-shadow: 3px 3px #000; 
+} 
+#title-page h3 { 
+    color: #3B3B3B;
+    font-size: 3em; 
+    font-style: italic; 
+    margin: 0 40px; 
+    text-shadow: 2px 2px #000; 
+}
+
+#splash{
+    height: 1000px;
+    background: url(images/billie_title.jpg) no-repeat center top fixed;
+   	background-size: cover;
+}
+#overview{
+    background-color: #3B3B3B;
+}
+#video{
+    background: #969696;
+   	background-size: cover;
+}
+#music{
+    background-color: #ffcc16;
+}
+#music h1,td,ul{
+    color: #000000;
+}
+#footer{
+    background-color: #3B3B3B;
+}
+.container {
+  width: 960px; /* static width container always stays at this width no matter what the window size */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* ---------------- CONTAINER STYLES ----------------- */
+.container {
+  width: 960px; /* static width container always stays at this width no matter what the window size */
+  margin: 0 auto;
+  overflow: hidden;
+}
+.half_container { /* provides a two column presentation */
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+
+/* ----------------- NAVIGATION BAR STYLES -------------------*/ 
+#navbar{
+	position: fixed; /* navbar should always be shown even when page is scrolled */
+	top: 0;
+	width: 100%;
+	height: 70px;
+	background-color: rgba(255, 255, 255, 0.8); 
+}	
+#menu {
+	list-style: none; /* eliminates bullets */
+	/* adjust padding top to adjust nav bar vertical position */
+	padding-top: 15px;
+    
+} 
+#menu li {
+	float: left; /* changes list from vertical to horizontal */
+	padding-bottom: 20px;
+} 
+#menu li a.button {
+	font-size: 16px;
+	text-decoration: none;
+	/* this padding defines the size of the buttons */
+	/*padding: 20px 100px 20px 100px;*/
+    padding: 20px 100px 20px 100px; 
+}
+/* change button color when mouse hovers over */
+#menu li a.button:hover {
+	background-color: rgba(42, 188, 238, 0.1);
+}
+/* ------------------- FOOTER CREDITS --------------------- */
+
+#credits {
+  text-align: center;	
+}
+#credits table{      
+  margin: 0 auto;		/* centers the color palette table */
+}
+#credits p {
+  font-size: .8em;
+  margin: 10px 0;
+}
+

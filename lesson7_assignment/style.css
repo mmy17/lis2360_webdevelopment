@@ -102,21 +102,28 @@ iframe {
 #container { 
 	width: 900px; 
 	margin: 0 auto; 
-	background-color: #3E403D;
+	background-color: #6A6C6E;
 	overflow: hidden; 
+	
 }
 #header { 
 	width: 100%; 
-	background-color: #3E403D;
+	background-color: #6A6C6E;
 	border-bottom: 1px solid #2E80FF;
+}
+#header h1{
+	padding-left: 15px;
 }
 #content { 
 	width: 600px;
 	float: left; 
 	padding-bottom: 40px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-left: 15px;
 }
 #sidebar { 
-	width: 278px; 
+	width: 250px; 
 	float: left;
 	margin-top: 50px;
 	margin-right: 20px;
@@ -139,4 +146,7 @@ iframe {
 #footer p {
 	margin: 0;
 	padding: 40px;
+}
+#picture {
+	padding-left: : 0;
 }
